@@ -1,0 +1,69 @@
+body {
+    text-align: left;
+    text-orientation: initial;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #111827;
+    border-bottom: 2px solid gray;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+h2 {
+    margin: 0px;
+    color: #10B981;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p {
+    margin: 5px;
+    color: gray;
+}
+
+#btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background: #10B981;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.password {
+    display: flex;
+    gap: 10px; 
+}
+
+.p1,
+.p2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 30px; 
+    width: 200px;
+    padding: 10px 15px;
+    background: #374151;
+    color: #10B981;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.p2 {
+    margin-left: 0; /* Remove auto margin to keep elements aligned */
+}
